@@ -15,7 +15,7 @@ instale flask:
 setar a variável de ambiente app do flask:
 $env:FLASK_APP = "main"
 
-instale gerenciador os bibliotecas:
+instale as bibliotecas:
 
 pip install FLASK-SQLAlchemy
 
