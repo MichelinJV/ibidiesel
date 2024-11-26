@@ -16,9 +16,13 @@ setar a variável de ambiente app do flask:
 $env:FLASK_APP = "main"
 
 instale gerenciador os bibliotecas:
+
 pip install FLASK-SQLAlchemy
+
 pip install FLASK-Migrate
+
 pip install FLASK-Script 
+
 pip install flask-login
  
 crie as migration do banco de dados:
