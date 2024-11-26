@@ -1,0 +1,68 @@
+/* Estilos globais */
+.container-cadastro {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;   
+    margin: 0;   
+    min-height: 100vh;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/* Container centralizado */
+.container-cadastro-corpo {
+    width: 50%;
+    margin: 50px auto;
+    background-color:#D6D2D2; 
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo do título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-cadastrar:hover {
+    background-color: #218838;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Campos de input */
+input[type="text"], input[type="email"], input[type="tel"]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px;    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+/* Quando o campo está em foco (ativo) */
+input:focus{
+    background-color: #ffffff;
+}
+

@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+}
+
+
+.container-cabecalho {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    background-color: #D6D2D2;
+
+}
+
+
+.logo {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+}
+
+.logoimg {
+    margin-top: 0px;
+    margin-left: 180px;
+    height: 80PX;
+    width: 100;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    height: 100%;
+    width: 500px;
+}
+
+svg:hover path {
+    fill: #96adc8;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 60px;
+    height: 100%;
+    width: 150px;   
+
+}
+
+.cadastro-img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cadastro-span {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;   
+
+}
+
+.produto_cadastro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 32px;
+    height: 100%;
+    width: 150px;   
+
+}
+
+.produto_cadastro-img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.produto-span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;  
+}
+
+.estoque_cadastro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 32px;
+    height: 100%;
+    width: 150px;   
+
+}
+
+.estoque_cadastro-img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.estoque-span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;  
+
+}
+
+
+
+
+
+.comprar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 32px;
+    height: 100%;
+    width: 150px;
+
+}
+
+.comprar-img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+
+
+.comprar-span {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+}
+
+
+
+
+.ajuda {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 32px;
+    height: 100%;
+    width: 150px;
+
+}
+
+.ajuda-img {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+
+
+.ajuda-span {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: right;
+}
+

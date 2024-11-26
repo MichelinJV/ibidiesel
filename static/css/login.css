@@ -1,0 +1,52 @@
+.login{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.login-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color:#D6D2D2 ;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.btn-entrar {
+    width: 100%;
+    padding: 10px;
+    background-color: #1341c2;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-entrar:hover {
+    background-color: #0b55df;
+}
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Quando o campo está em foco (ativo) */
+input:focus{
+    background-color: #ffffff;
+}
